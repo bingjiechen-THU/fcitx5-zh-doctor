@@ -14,10 +14,6 @@ Ubuntu 22.04 随附的 fcitx5（5.0.11 / 5.0.14）与 libime（1.0.11）存在�
 | 云拼音默认关闭 | 安装 `fcitx5-module-cloudpinyin` 后无效果 | `CloudPinyinEnabled` 默认为 `False` |
 | 词库版本不匹配 | 词库文件已放入目录，候选词数量没有变化 | 上游 zhwiki 词库按新版 libime 编译，加载时报 `Invalid pinyin version` |
 
-第三项尤其隐蔽：文件存在、权限正确、配置无误，但 fcitx5 启动日志中仅有单行错误，界面上没有任何提示。
-
-现有教程与方案多聚焦于主题或词库单体，未覆盖上述版本适配问题，本项目对此提供自动化处理。
-
 ## 功能
 
 - 安装依赖包，并将云拼音后端切换至 `GoogleCN`
