@@ -1,0 +1,26 @@
+第三方资源与许可
+================
+
+1. 词库数据
+   ----------
+   zh.wikipedia 拼音词库由 felixonmars/fcitx5-pinyin-zhwiki 生成：
+   https://github.com/felixonmars/fcitx5-pinyin-zhwiki
+
+   数据源自中文维基百科，遵循 Creative Commons Attribution-ShareAlike 4.0
+   International (CC BY-SA 4.0)：
+   https://creativecommons.org/licenses/by-sa/4.0/
+
+   本项目仅将其从 Rime 词库格式转换为 libime 文本格式并重新编译，
+   不改变数据内容与许可。再分发时请保留本声明。
+
+2. 主题资源
+   ----------
+   theme/Material-Color-green 基于 fcitx5-material-color：
+   https://github.com/hosxy/fcitx5-material-color
+
+   仅修改配色与间距，原项目许可与署名保留在 theme.conf 的 Author 字段。
+
+3. 图标资源
+   ----------
+   构建时从系统 fcitx5 主题（default / Material-Color-blue）复制
+   arrow.png、radio.png，未在本仓库中分发。

@@ -1,0 +1,22 @@
+Package: fcitx5-zh-doctor
+Version: @VERSION@
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: fcitx5-zh-doctor <noreply@example.com>
+Installed-Size: @SIZE@
+Depends: fcitx5, fcitx5-chinese-addons, fcitx5-pinyin, fcitx5-module-cloudpinyin,
+ fcitx5-config-qt, fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5,
+ libime-bin, fonts-arphic-ukai, xz-utils
+Recommends: im-config, fcitx5-material-color
+Description: ready-to-use fcitx5 Chinese input preset for Ubuntu/Debian
+ Installs a working Chinese input setup for fcitx5:
+  * Material green theme with a Kai (UKai) font
+  * cloud pinyin configured for the Google CN backend
+  * zh.wikipedia dictionary, compiled at install time against the
+    libime version present on the target machine
+ .
+ The package exists because several defaults shipped by older fcitx5
+ versions are broken: the Baidu cloud backend points at a dead
+ endpoint, cloud pinyin is disabled by default, and prebuilt
+ dictionaries fail to load with "Invalid pinyin version".

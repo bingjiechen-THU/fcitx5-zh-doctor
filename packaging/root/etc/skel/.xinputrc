@@ -1,0 +1,2 @@
+# fcitx5-zh-doctor: 新用户默认使用 fcitx5
+run_im fcitx5
